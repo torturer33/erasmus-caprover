@@ -1,0 +1,53 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Çevre değişkenleri - .env.production hariç
+.env
+
+# Veritabanı
+*.db
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Docker
+.dockerignore
+*.Dockerfile
+
+# IDE dosyaları
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Uploads dizini - verileri korumak için gerekiyorsa bu satırı kaldırın
+# uploads/
+
+# Local development related
+venv/
+.env.local
